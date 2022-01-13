@@ -1,143 +1,118 @@
-// 1. Declare two variables: firstName and lastName. 
+// 1 Declare two variables: firstName and lastName
 
-let firstName = "kehinde"
-let lastName = "Otedola"
+let firstName;
+let lastName;
 
-// 2. Copy the value from firstName AND lastName to boss. i.e variable  boss should be equal to Kehinde Odetola
+// 2 Assign the value "Kehinde" to firstName
+// Assign the value "Odetola" to   lastName
 
+firstName = "Kihinde";
+lastName = "Odetola";
 
-boss = "kehinde" + " " + "Otedola"
+// 3  Copy the value from firstName AND lastName to boss. i.e variable  boss should be equal to Kehinde Odetola
 
-// 3. Show the value of boss using alert
-alert(boss)
+let boss = firstName + " " + lastName;
 
+// 4  Show the value of boss using alert
 
+alert(boss);
 
-// 4. Create a variable with the name of our planet. How would you name such a variable? 
+// 5  Create a variable with the name of our planet. How would you name such a variable?
 
-let Planet = "earth"
+let ourPlanet = "earth";
 
- 
-// 5. Create a variable to store the name of a current visitor to a website. How would you name that variable?
+// 6  Create a variable to store the name of a current visitor to a website. How would you name that variable?
 
-let currentUserName = "Francis"
-isLoggedIn = true
+let currentUser = "Victor";
 
+// 7  create an array arr of 20 items in it 3
 
-// 6. create an array arr of 20 items in it
+let arr = ['list one', 'list two', 'list three', 'list four', 'list five', 'list six', 'list seven', 'list eight', 'list nine', 'list ten', 'list eleven', 'list twelve', 'list thirteen', 'list fourteen', 'list fifteen', 'list sixteen', 'list seventeen', 'list eighteen', 'list nineteen', 'list tweenty'];
 
-let christmasList = ['AC','light bulb','trees','flowers','cards','decorations','clothes','sofas', 'dining table','shoes','rice','tomatoes','spices','Chicken','Beef','salad cream','CatchUp','letus','sweet potatoes','carrot'];
+// 8   output the items with positions in a  multiple of 5  in  array  arr
 
+console.log(arr[4], arr[9], arr[14], arr[19]);
 
-// 7. output the items with positions in a  multiple of 5  in  array  arr  
+// 9  create an dog Object with 4 properties.
 
-console.log(christmasList[4])
-console.log(christmasList[9])
-console.log(christmasList[14])
-console.log(christmasList[19])
-
-// 8. create an dog Object with 4 properties.
-
-let babyDoge = {
+let shib = {
+    name: "shiberon",
+    height: 4,
     age: 2,
-    breed:"Shiba Inu",
-    likesBarking:true,
-    gender:"male"
-}
-
-// console.log(babyDoge)
-
-// 9. create an array of objects of 8  different animals and output 1 of each animal's properties
-
-let flokiDoge = {
-    age: 2,
-    breed:"Shib Floki",
-    likesBarking:true,
-    gender:"male"
-}
-
-console.log(flokiDoge.breed)
-
-
-let dogeFloki = {
-    age: 2,
-    breed:"Boom Floki",
-    likesBarking:true,
-    gender:"male"
-}
-
-console.log(dogeFloki.age)
-
-
-let shiba = {
-    age: 2,
-    breed:"Shiba Inu",
-    likesBarking:true,
-    gender:"male"
-}
-
-console.log(shiba.gender)
-
-
-let cat = {
-    age: 4,
-    family:"cat",
-    gender:"make",
+    isMale: false,
 };
 
-console.log(cat.family)
 
+// 10  create an array of objects of 8  different animals and output 1 of each animal's properties
 
-let mice = {
-    gender:"male"
+let animals = [
+    {
+        name: "shiber",
+        height: 4,
+        age: 2,
+        isMale: false,
+    },
+
+    {
+        name: "shiba",
+        height: 2,
+        age: 1,
+        isMale: true,
+    },
+
+    {
+        name: "shibby",
+        hasHeight: false,
+        age: 12,
+        physic: "huge",
+    },
+
+    {
+        name: "shibru",
+        location: "wild",
+        eyeColour: "brown",
+        hasHairs: true,
+    },
+
+    {
+        name: "shibre",
+        livesIn: "wild",
+        legType: "long",
+        hasHairs: true, 
+    },
+
+    {
+        name: "Doge",
+        hasCryptoReplica: true,
+        sound: "barks",
+        canSwim: false,
+    },
+
+    {
+        name: "Dogelon",
+        livesIn: "domestic",
+        relates: "friendly",
+        "is a pet": true,
+    },
+
+    {
+        name: "Doggy",
+        position: "squorting",
+        eats: "bananas",
+        cansquirt: true,
+    },
+];
+
+console.log(animals[0].height, animals[1].height, animals[2].physic, animals[3].eyeColour, animals[4].livesIn, animals[5].hasCryptoReplica, animals[6].relates, animals[7].eats);
+
+// 11  Create a variable for ptpAmount and write a conditional statement using if and else for different cases of the PTP Amount; Have an output for any possible amount. (be creative here for the possible scenarios of PTP).
+
+let ptpAmount = 50000;
+
+if (ptpAmount >50000){
+console.log("Amount Too Low")
 }
 
-console.log(mice.gender)
-
-
-let floki = {
-    age: 2,
-    breed:"Shiba Inu",
-    likesBarking:true,
-    gender:"male"
-}
-
-console.log(floki.likesBarking)
-
-
-
-let Bull = {
-    attribute:"Aggressive",
-    likesAttacking:true,
-    gender:"male"
-}
-
-console.log(Bull.attribute)
-
-
-let Bear = {
-    attribute: "weak",
-    likesAttacking:false,
-}
-
-console.log(Bear.likesAttacking)
-
-// 10. Create a variable for ptpAmount and write a conditional statement using if and else for different cases of the PTP Amount; Have an output for any possible amount. (be creative here for the possible scenarios of PTP). 
-
-let ptpAmount = 20000
-
-if (ptpAmount === 20000){
-console.log("Congratulations, You Made Him to BFree of Debt")
-}
-
-else if(ptpAmount === 10000){
-    console.log("Made Partial Payment")
-}
-
-else if (ptpAmount === 21000){
-    console.log("Client OverPaid")
-}
-
-else if(ptpAmount === 4500){
-    console.log("Payment is below Average Amount Agreed")
-}
+else {
+    console.log("PTP Saved")
+};
