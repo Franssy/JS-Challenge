@@ -23,7 +23,8 @@ let ourPlanet = "earth";
 
 // 6  Create a variable to store the name of a current visitor to a website. How would you name that variable?
 
-let currentUser = "Victor";
+let currentUser;
+currentUser = "Victor";
 
 // 7  create an array arr of 20 items in it 3
 
